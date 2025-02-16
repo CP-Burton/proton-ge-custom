@@ -8,7 +8,7 @@ DEFAULT_BUILD_NAME="proton-localbuild" # If no --build-name specified
 # Output helpers
 COLOR_ERR=""
 COLOR_STAT=""
-COLOR_INFO=""
+COLOR_INFO=""splat
 COLOR_CMD=""
 COLOR_CLEAR=""
 if [[ $(tput colors 2>/dev/null || echo 0) -gt 0 ]]; then
